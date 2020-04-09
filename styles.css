@@ -2,6 +2,11 @@ header {
     position: fixed;
 }
 
+.myStory {
+    padding-right: 10px;
+}
+
+
 body {  
     background-image: url(Assets/Images/bgimg.JPG);
     background-position: center;
@@ -24,15 +29,11 @@ body {
     font-size: 14px !important;
 }
 
-/*.ability {
+h1, h3{
     font-family: 'IM Fell French Canon SC', serif;
     font-family: 'Amatic SC', cursive;
     font-family: 'Gloria Hallelujah', cursive;
-    font-size: 14px;
-    color: white;
-    margin-left: 10rem;
-    padding-top: 10rem;
-}*/
+}
 
 h5 {
     text-align: center;
