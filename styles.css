@@ -1,0 +1,65 @@
+header {
+    position: fixed;
+}
+
+body {  
+    background-image: url(Assets/Images/bgimg.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    
+}
+
+.container {
+    padding-top: 13rem;
+    padding-left: 18rem; 
+}
+
+.card {
+    opacity: 85%;
+}
+
+.cardtext {
+    font-size: 14px !important;
+}
+
+/*.ability {
+    font-family: 'IM Fell French Canon SC', serif;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 14px;
+    color: white;
+    margin-left: 10rem;
+    padding-top: 10rem;
+}*/
+
+h5 {
+    text-align: center;
+}
+
+.py-5 {
+    padding-top: (4 * 3);
+    padding-bottom: (4 * 3);
+
+}
+
+@media (max-width: 768px) {
+    #bgimage {
+        background-image: url(Assets/Images/bgimg.JPG);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1000px;
+    }
+}
+
+@media (max-width: 640px) {
+    #bgimage {
+        background-image: url(Assets/Images/bgimg.JPG);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1000px;
+    }
+}
