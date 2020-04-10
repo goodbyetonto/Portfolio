@@ -6,6 +6,8 @@ html {
 body {
     height: 100%;
     width: 100%; 
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar {
@@ -82,29 +84,51 @@ h1, h3{
 
 }
 
+body footer {
+    background: grey;
+    color: white;
+    padding: 1rem 0; 
+    text-align: center;
+    margin-top: 0;
+}
+
+@media (max-width: 980px) {
+    .container {
+        padding-left: 235px; 
+    }
+}
+
 @media (max-width: 768px) {
-    #bgimage {
+    /*#bgimage {
         background-image: url(Assets/Images/bgimg.JPG);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         height: 1000px;
-    }
+    }*/
 
     .container {
-        padding-left: 180px;
+        padding-left: 170px;
     }
 }
 
+
 @media (max-width: 640px) {
-    #fixed {
+    /*#fixed {
         background-image: url(Assets/Images/bgimg.JPG);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         height: 900px;
-    }
+    }*/
 
     .container {
         justify-content: center;
     }
+}
+
+@media (max-width: 380px) {
+    .container {
+        padding-left: 60px;
+    }
+}
